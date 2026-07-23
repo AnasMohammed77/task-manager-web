@@ -1,0 +1,238 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #e3f7fb;
+    line-height: 1.6;
+
+}
+/* الرأس */
+
+header {
+    
+    position: sticky;
+    top:0;
+    z-index:1;
+    background: #3793bb;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    text-align: center;
+}
+header h1 {
+ 
+    margin-bottom: 10px;
+}
+/*قائمة التنقل بين الصفحات*/
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+ a:hover {
+    background: rgba(21, 94, 91, 0.877);
+    color: #011718;
+}
+/* المحتوى */
+main {
+    padding: 20px;
+    margin:10px 200px;
+
+}
+/* العنوان الترحيبي*/
+.hero h2 {
+    font-size: 2em;
+    color: #4a90e2;
+}
+/*======================================================*/
+/* الروابط التي في الصفحة الرئيسية*/
+.btn{
+   background: #4a90e2;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    margin:  5px 1px 0px 40px;
+    width: 200px;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color:rgba(21, 94, 91, 0.877);
+    color: #020405;
+}
+/*===========================================================*/
+/*  الأزرار الحفظ والتعديل*/
+.btn1,.btn1 {
+    background: #4a90e2;
+    color: white;
+    width: 99%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    
+}
+.p1{
+    font-size: 30px;
+}
+.btn1:hover {
+    background: #35bd45;
+    color:#333;
+}
+
+/* قسم الترحيب */
+.hero {
+    text-align: center;
+    padding: 3px 0;
+}
+
+/*  البطاقات التي في الصفحة الرئيسية*/
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    color: #273bae;
+    text-align: center;
+}
+
+/*================ النماذج ================================*/
+.form-box {
+    background: white;
+    padding: 40px;
+    border-radius: 50px;
+}
+.card{
+    border-radius: 90px;
+}
+label {
+    padding:0px 10px 0px 0px;
+    margin: 12px  5px;
+    font-weight: bolder;
+}
+input, textarea, select {
+    width: 99%;
+    padding: 12px;
+    border: 2px dashed #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+
+/*===================================================================*/
+/*                 تنسيقات صفحة المهام           */
+/*===================================================================/=*/
+/* أزرار التصفية */
+ filter-buttons ,.btn_filter {
+    border: 1px solid rgb(150, 41, 152);
+    text-align: center;
+    border-radius: 80px;
+    padding:20px 0px ;
+    margin: 20px;
+}
+/* ازارات التصفية والعرض*/
+
+.btn_filter{
+    width: 200px;
+    padding:10px 20px ;
+    border-radius: 80px;
+    font-size: 20px;
+
+}
+/* عناوين الصفحات */
+.add_addrass{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: #ae2746;
+    background-color:rgb(119, 199, 142) ;
+    margin: 10px 200px;
+    padding: 10px;
+}
+.btn_filter:hover {
+    background: #bbb;
+}
+/*================================================================*/
+/*مربع البحث*/
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 85%;
+}
+
+/* الإحصائيات */
+/* التحكم بعض البطائق في صفحة الاحصائيات/*/
+.stats-container {
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+
+}
+
+/*تنسيق البطائق التي في صفحة الاحصائيات===================== =*/
+
+.card_describ {
+    background: white;
+    padding: 25px;
+    border-radius: 80px;
+    text-align: center;
+}
+/*تنسيق النصوص التي في صفحة الاحصائيات*/
+
+.card_describ h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+/*تنسيق الارقام التي في صفحة الاحصائيات*/
+.card_describ p{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4a90e2;
+}
+/* التذييل */
+footer {
+    text-align: center;
+    border-radius: 60px;
+    padding: 30px;
+    background: #333;
+    color: white;
+    margin: 30px  240px 50px 240px;
+}
+.foot{
+     margin: 120px 240px 0 240px ;
+
+} 
+/* بطاقات المهام */
+.task-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-right: 4px solid #ddd;
+}
+
+.btn-complete {
+        padding: 5px;
+
+    background: #27ae60;
+}
+
+.btn-edit {
+    background: #f39c12;
+    padding: 5px;
+}
+
+.btn-delete {
+        padding: 5px;
+
+    background: #e74c3c;
+}
