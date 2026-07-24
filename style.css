@@ -427,15 +427,21 @@ h2{
   color:blue;
 } 
 
-.btn{
-  display:inline-block;
-    background:#4a90e2;
-    color:#fff;
-    border:none;
-    border-radius:30px;
-    padding:0px 10px;
-    text-decoration:none;
-    cursor:pointer;
-    text-align:center;
-    transition:.3s;
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons .btn {
+    width: 48%;
+    padding: 15px;
+    background: #4A90E2;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
